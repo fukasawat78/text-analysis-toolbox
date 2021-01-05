@@ -1,7 +1,7 @@
 Text Data Dashboard
 ==============================
 
-## 超絶シンプルなテキストデータのダッシュボードツールです。
+## 超絶シンプルなテキストデータのダッシュボードツール
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -16,14 +16,17 @@ Text Data Dashboard
 <!-- /code_chunk_output -->
 
 ## Install
-`pip install simplefeatureselection`
+`pip install text-data-dashboard`
 
 ## Usage
 ```
-from simplefeatureselection import SimpleFeatureSelection
-sfs = SimpleFeature Selection()
+from textdatadashboard import TextDataDashboard
 
-df_selected, y = sfs.fit_transform(X, y)
+df = pd.read_csv("./text.csv")
+
+tdd = TextDataDashboard()
+df = tdd.transform(df)
+tdd.create_dashboard(df)
 ```
 
 ## Organization
@@ -33,8 +36,8 @@ df_selected, y = sfs.fit_transform(X, y)
     ├── Makefile            <- Makefile with commands like `make data` or `make train`
     ├── README.md           <- The top-level README for developers using this project.
     │
-    ├── simplefeatureselction/
-    │   └── simplefeature
+    ├── text-data-bashboard/
+    │   └── text_data_dashboard.py
     │ 
     └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
                               generated with `pip freeze > requirements.txt`
