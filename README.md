@@ -8,7 +8,7 @@ Text Data Dashboard
 <!-- code_chunk_output -->
 
 * [Text Data Dashboard]
-	* [Requirements](#requirements)
+	* [Install](#requirements)
 	* [Usage](#how-to-run)
 	* [Organization](#organization)
     * [Acknowledgements](#acknowledgements)
