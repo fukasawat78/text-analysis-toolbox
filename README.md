@@ -1,7 +1,7 @@
 Text Data Dashboard
 ==============================
 
-## 超絶シンプルなテキストデータのダッシュボードツール
+## テキストデータダッシュボードツール(作成中)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
