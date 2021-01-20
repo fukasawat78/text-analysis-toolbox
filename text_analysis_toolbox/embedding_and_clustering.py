@@ -30,7 +30,10 @@ def get_word2vec(df):
 
 def get_umap(X, configs):
     
-    umap_res = umap.UMAP(n_neighbors=configs["n_neighbors"], n_components=configs["n_components"]).fit_transform(X)
+    umap_res = umap.UMAP(
+        n_neighbors=configs["n_neighbors"], 
+        n_components=configs["n_components"]
+    ).fit_transform(X)
     
     return umap_res
 

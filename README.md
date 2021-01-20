@@ -24,7 +24,7 @@ from text_analysis_toolbox import TextAnalysisToolBox
 
 df = pd.read_csv("./text.csv")
 
-tdd = TextAnalysisToolBox()
+tat = TextAnalysisToolBox()
 ```
 
 ## Organization

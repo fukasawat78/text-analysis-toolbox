@@ -2,3 +2,4 @@ mecab-python
 hdbscan
 umap-learn
 gensim
+wordcloud

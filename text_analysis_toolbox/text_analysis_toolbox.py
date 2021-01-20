@@ -16,6 +16,7 @@ from dash_app import dash_app_dashboard
 from sentiment import get_polarity_dict, wiki_model
 from utils import *
 from embedding_and_clustering import *
+from get_wordcloud import *
 from analyzer import mecab_analyzer, dataframe_analyzer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn import datasets, manifold, mixture, model_selection
@@ -79,7 +80,6 @@ class TextAnalysisToolBox:
         
         return lda_model
         
-    
     def create_dashboard(self, df):
 
         dash_app_dashboard(df)
