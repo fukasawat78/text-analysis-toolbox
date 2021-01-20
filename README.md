@@ -1,13 +1,13 @@
-Text Data Dashboard
+Text Analysis ToolBox
 ==============================
 
-## テキストデータダッシュボードツール(作成中)
+## テキストデータ分析つーる(作成中)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-* [Text Data Dashboard]
+* [Text Analysis ToolBox]
 	* [Install](#requirements)
 	* [Usage](#how-to-run)
 	* [Organization](#organization)
@@ -16,17 +16,15 @@ Text Data Dashboard
 <!-- /code_chunk_output -->
 
 ## Install
-`pip install text-data-dashboard`
+`pip install text-analysis-toolbox`
 
 ## Usage
 ```
-from textdatadashboard import TextDataDashboard
+from text_analysis_toolbox import TextAnalysisToolBox
 
 df = pd.read_csv("./text.csv")
 
-tdd = TextDataDashboard()
-df = tdd.transform(df)
-tdd.create_dashboard(df)
+tdd = TextAnalysisToolBox()
 ```
 
 ## Organization
@@ -36,8 +34,7 @@ tdd.create_dashboard(df)
     ├── Makefile            <- Makefile with commands like `make data` or `make train`
     ├── README.md           <- The top-level README for developers using this project.
     │
-    ├── text-data-bashboard/
-    │   └── text_data_dashboard.py
+    ├── text-analysis-toolbox/
     │ 
     └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
                               generated with `pip freeze > requirements.txt`
